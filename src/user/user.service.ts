@@ -20,6 +20,10 @@ export class UserService {
     return `This action updates a #${id} user`;
   }
 
+  assignRole(id: number, roleId: string){
+    return `This action updates a user`;
+  }
+
   remove(id: number) {
     return `This action removes a #${id} user`;
   }
